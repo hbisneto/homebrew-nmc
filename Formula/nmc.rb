@@ -44,6 +44,6 @@ class Nmc < Formula
     end
 
     test do
-    system "#{bin}/nmc", "--help"
+        system "#{bin}/nmc", "--help"
     end
 end
